@@ -186,4 +186,16 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    'tbot_allowed_commands' => [
+        [
+            'key' => 'questions',
+            'command' => '/questions',
+            'description' => 'Список запитань',
+        ],
+        [
+            'key' => 'test',
+            'command' => '/test',
+            'description' => 'Тестова команда',
+        ],
+    ]
 ];
